@@ -50,36 +50,36 @@
 
 ---
 
-## [**💡 Bit Manipulation**]()
+## [**💡 Bit Manipulation**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation)
 
 | **Algorithm / Pattern**                                                                                                                                                   | **Time Complexity**              | **Space Complexity** |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:---------------------|
-| [**Bit masking**]()                                                                                                                                                       | O(1) per op                      | O(1)                 |
-| [**Bitmask DP (TSP, etc.)**]()                                          | O(2^n × n)                       | O(2^n)               |
-| [**Bitwise AND of Numbers Range**]()                               | O(1)                             | O(1)                 |
-| [**Bitwise Complement (inversion)**]()                               | O(1)                             | O(1)                 |
-| [**Clear ith bit**]()                                                              | O(1)                             | O(1)                 |
-| [**Count set bits (Hamming weight)**]()                         | O(log n)                         | O(1)                 |
-| [**Detect if two numbers have opposite signs**]() | O(1)                             | O(1)                 |
-| [**Divide Two Integers (bitwise division)**]()          | O(1) (32-bit int)                | O(1)                 |
-| [**Find Missing Number using XOR**]()                             | O(n)                             | O(1)                 |
-| [**Find Rightmost Set Bit**]()                                            | O(1)                             | O(1)                 |
-| [**Get ith bit**]()                                                                   | O(1)                             | O(1)                 |
-| [**Gray Code generation**]()                                                   | O(2^n)                           | O(2^n)               |
-| [**Hamming Distance**]()                                                             | O(1)                             | O(1)                 |
-| [**Maximum Product of Word Lengths**]()                         | O(n^2)                           | O(n)                 |
-| [**Power of Two check**]()                                                     | O(1)                             | O(1)                 |
-| [**Reverse bits of an integer**]()                                  | O(1)                             | O(1)                 |
-| [**Set ith bit**]()                                                                   | O(1)                             | O(1)                 |
-| [**Single Number I**]()                                                          | O(n)                             | O(1)                 |
-| [**Single Number II**]()                                                           | O(n)                             | O(1)                 |
-| [**Single Number III**]()                                                         | O(n)                             | O(1)                 |
-| [**Subsets using bits**]()                                                      | O(2^n × n)                       | O(1)                 |
-| [**Subset Generation with Bitmask**]()                         |       O(n × 2^n)     |  O(n × 2^n)                                            |
-| [**Sum without '+' (bitwise sum)**]()                         | O(1) (32-bit int)                | O(1)                 |
-| [**Toggle ith bit**]()                                                            | O(1)                             | O(1)                 |
-| [**XOR tricks single/unique numbers**]()                      | O(n) (array)                     | O(1)                 |
-| [**XOR tricks swap**]()                                                             | O(n) (array), O(1) (swap)        | O(1)                 |
+| [**Bit masking**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Bit%20masking)                                                                                                                                                       | O(1) per op                      | O(1)                 |
+| [**Bitmask DP (TSP, etc.)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Bitmask%20DP%20(TSP%2C%20etc.))                                          | O(2^n × n)                       | O(2^n)               |
+| [**Bitwise AND of Numbers Range**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Bitwise%20AND%20of%20Numbers%20Range)                               | O(1)                             | O(1)                 |
+| [**Bitwise Complement (inversion)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Bitwise%20Complement%20(inversion))                               | O(1)                             | O(1)                 |
+| [**Clear ith bit**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Clear%20ith%20bit)                                                              | O(1)                             | O(1)                 |
+| [**Count set bits (Hamming weight)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Count%20set%20bits%20(Hamming%20weight))                         | O(log n)                         | O(1)                 |
+| [**Detect if two numbers have opposite signs**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Detect%20if%20two%20numbers%20have%20opposite%20signs) | O(1)                             | O(1)                 |
+| [**Divide Two Integers (bitwise division)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Divide%20Two%20Integers%20(bitwise%20division))          | O(1) (32-bit int)                | O(1)                 |
+| [**Find Missing Number using XOR**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Find%20Missing%20Number%20using%20XOR)                             | O(n)                             | O(1)                 |
+| [**Find Rightmost Set Bit**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Find%20Rightmost%20Set%20Bit)                                            | O(1)                             | O(1)                 |
+| [**Get ith bit**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Get%20ith%20bit)                                                                   | O(1)                             | O(1)                 |
+| [**Gray Code generation**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Gray%20Code%20generation)                                                   | O(2^n)                           | O(2^n)               |
+| [**Hamming Distance**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Hamming%20Distance)                                                             | O(1)                             | O(1)                 |
+| [**Maximum Product of Word Lengths**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Maximum%20Product%20of%20Word%20Lengths)                         | O(n^2)                           | O(n)                 |
+| [**Power of Two check**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Power%20of%20Two%20check)                                                     | O(1)                             | O(1)                 |
+| [**Reverse bits of an integer**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Reverse%20bits%20of%20an%20integer)                                  | O(1)                             | O(1)                 |
+| [**Set ith bit**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Set%20ith%20bit)                                                                   | O(1)                             | O(1)                 |
+| [**Single Number I**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Single%20Number%20I)                                                          | O(n)                             | O(1)                 |
+| [**Single Number II**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Single%20Number%20II)                                                           | O(n)                             | O(1)                 |
+| [**Single Number III**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Single%20Number%20III)                                                         | O(n)                             | O(1)                 |
+| [**Subsets using bits**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Subsets%20using%20bits)                                                      | O(2^n × n)                       | O(1)                 |
+| [**Subset Generation with Bitmask**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Subset%20Generation%20with%20Bitmask)                         |       O(n × 2^n)     |  O(n × 2^n)                                            |
+| [**Sum without '+' (bitwise sum)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Sum%20without%20'%2B'%20(bitwise%20sum))                         | O(1) (32-bit int)                | O(1)                 |
+| [**Toggle ith bit**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/Toggle%20ith%20bit)                                                            | O(1)                             | O(1)                 |
+| [**XOR tricks single/unique numbers**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/XOR%20tricks%20single%20unique%20numbers)                      | O(n) (array)                     | O(1)                 |
+| [**XOR tricks swap**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Bit%20Manipulation/XOR%20tricks%20swap)                                                             | O(n) (array), O(1) (swap)        | O(1)                 |
 ---
 
 **Legend:**  
