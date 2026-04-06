@@ -93,18 +93,18 @@
 
 ---
 
-## [**♾️ Divide and Conquer**]()
+## [**♾️ Divide and Conquer**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer)
 
-| **Algorithm**        | **Time Complexity** | **Space Complexity** |
-|:----------------------|:-------------------|:--------------------|
-| [**Closest Pair of Points**]() | O(n log n)      | O(n)             |
-| [**Convex Hull (Divide-and-Conquer version)**]() | O(n log n)      | O(n)             |
-| [**Count Inversions**](() | O(n log n)      | O(n)             |
-|[**Karatsuba Algorithm**]()|O(n^log₂3) ≈ O(n^1.585)|O(n)|
-| [**Kth Element (QuickSelect)**]() | O(n) avg / O(n²) worst | O(1)      |
-| [**Majority Element (D&C version)**]() | O(n log n)      | O(log n)         |
-| [**Maximum Subarray (D&C version)**]() | O(n log n)      | O(log n)         |
-|[**Strassen’s Matrix Multiplication**]()|O(n^log₂7) ≈ O(n^2.81)|O(n²)|
+| **Algorithm**                                                                                                                                                             | **Time Complexity** | **Space Complexity** |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:--------------------|
+| [**Closest Pair of Points**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Closest%20Pair%20of%20Points)                                     | O(n log n)      | O(n)             |
+| [**Convex Hull (Divide-and-Conquer version)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Convex%20Hull%20(Divide-and-Conquer%20version)) | O(n log n)      | O(n)             |
+| [**Count Inversions**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Count%20Inversions)                                                                                                                                                  | O(n log n)      | O(n)             |
+| [**Karatsuba Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Karatsuba%20Algorithm)                                                                                                                                               |O(n^log₂3) ≈ O(n^1.585)|O(n)|
+| [**Kth Element (QuickSelect)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Kth%20Element%20(QuickSelect))                                                                                                                                         | O(n) avg / O(n²) worst | O(1)      |
+| [**Majority Element (D&C version)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Majority%20Element%20(D%26C%20version))                                                                                                                                    | O(n log n)      | O(log n)         |
+| [**Maximum Subarray (D&C version)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Maximum%20Subarray%20(D%26C%20version))                                                                                                                                    | O(n log n)      | O(log n)         |
+| [**Strassen’s Matrix Multiplication**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Divide%20and%20Conquer/Strassen%E2%80%99s%20Matrix%20Multiplication)                                                                                                                                  |O(n^log₂7) ≈ O(n^2.81)|O(n²)|
 
 ---
 
