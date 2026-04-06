@@ -16,22 +16,22 @@
 - [**DFS + BFS Patterns (1):**](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)
 - [**DFS + BFS Patterns (2):**](https://medium.com/leetcode-patterns/leetcode-pattern-2-dfs-bfs-25-of-the-problems-part-2-a5b269597f52)
 
-## [**🛠 Recursion and Backtracking**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking)
+## [**🛠 Recursion and Backtracking**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking)
 
-| **Algorithm**                                                                                                                                                                                | **Time Complexity**                            | **Space Complexity**                                        |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------|:------------------------------------------------------------|
-| [**Combinations All Combinations (any length)**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Combinations%20All%20Combinations%20(any%20length))       | O(2^n) (each element can be included/excluded) | O(n) (stack), O(2^n × n) (if storing all)                   |
-| [**Combinations Recursive (Backtracking) Approach**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Combinations%20Recursive%20(Backtracking)%20Approach) | O(C(n, k)) — n choose k                        | O(k) (recursion stack)                                      |
-| [**Generate Parentheses**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Generate%20Parentheses)                                                         | O(4^n / √n), nth Catalan number                | O(n) (stack)                                                |
-| [**Letter Combinations of a Phone Number**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Letter%20Combinations%20of%20a%20Phone%20Number)               | O(4^n) (n = digits, max 4 letters per digit)   | O(n) (stack)                                                |
-| [**N-Queens problem**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/N-Queens%20problem)                                                                 | O(n!)                                          | O(n²)                                                       |
-| [**Palindrome Partitioning**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Palindrome%20Partitioning)                                                   | O(2^n) (all possible partitions)               | O(n) (stack)                                                |
-| [**Partition problem**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Partition%20problem)                                                               | O(2^n) — try all subsets                       | O(n) (stack)                                                |
-| [**Permutations**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Permutations)                                                                           | O(n × n!)                                      | O(n)                                                        |
-| [**Restore IP Addresses**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Restore%20IP%20Addresses)                                                       | O(1) (bounded, splits into 4 parts)            | O(1) (stack)                                                |
-| [**Subset sum**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Subset%20sum)                                                                             | O(n * sum)                                     | O(sum) (if using space optimization), otherwise O(n * sum)  |
-| [**Sudoku solver**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Sudoku%20solver)                                                                       | O(9^(n))                                       | O(n)                                                        |
-| [**Word Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/%20Recursion%20and%20Backtracking/Word%20Search)                                                                           | O(N × 4^L) (N=board size, L=word)              | O(L)                                                        |
+| **Algorithm**                                                                                                                                                                                    | **Time Complexity**                            | **Space Complexity**                                        |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------|:------------------------------------------------------------|
+| [**Combinations All Combinations (any length)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Combinations%20All%20Combinations%20(any%20length))       | O(2^n) (each element can be included/excluded) | O(n) (stack), O(2^n × n) (if storing all)                   |
+| [**Combinations Recursive (Backtracking) Approach**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Combinations%20Recursive%20(Backtracking)%20Approach) | O(C(n, k)) — n choose k                        | O(k) (recursion stack)                                      |
+| [**Generate Parentheses**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Generate%20Parentheses)                                                         | O(4^n / √n), nth Catalan number                | O(n) (stack)                                                |
+| [**Letter Combinations of a Phone Number**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Letter%20Combinations%20of%20a%20Phone%20Number)               | O(4^n) (n = digits, max 4 letters per digit)   | O(n) (stack)                                                |
+| [**N-Queens problem**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/N-Queens%20problem)                                                                                                                                                                         | O(n!)                                          | O(n²)                                                       |
+| [**Palindrome Partitioning**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Palindrome%20Partitioning)                                                                                                                                                                  | O(2^n) (all possible partitions)               | O(n) (stack)                                                |
+| [**Partition problem**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Partition%20problem)                                                                                                                                                                        | O(2^n) — try all subsets                       | O(n) (stack)                                                |
+| [**Permutations**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Permutations)                                                                                                                                                                             | O(n × n!)                                      | O(n)                                                        |
+| [**Restore IP Addresses**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Restore%20IP%20Addresses)                                                                                                                                                                     | O(1) (bounded, splits into 4 parts)            | O(1) (stack)                                                |
+| [**Subset sum**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Subset%20sum)                                                                                                                                                                               | O(n * sum)                                     | O(sum) (if using space optimization), otherwise O(n * sum)  |
+| [**Sudoku solver**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Sudoku%20solver)                                                                                                                                                                            | O(9^(n))                                       | O(n)                                                        |
+| [**Word Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/%20Recursion%20and%20Backtracking/Word%20Search)                                                                                                                                                                              | O(N × 4^L) (N=board size, L=word)              | O(L)                                                        |
 
 ---
 
@@ -50,36 +50,36 @@
 
 ---
 
-## [**💡 Bit Manipulation**](https://github.com/jwm1rr0rb/leetcode/blob/main/Bit%20Manipulation/README.md)
+## [**💡 Bit Manipulation**]()
 
-| **Algorithm / Pattern**                            | **Time Complexity**              | **Space Complexity** |
-|:---------------------------------------------------|:---------------------------------|:---------------------|
-| [**Bit masking**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Bit%20masking)                                | O(1) per op                      | O(1)                 |
-| [**Bitmask DP (TSP, etc.)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Bitmask%20DP%20(TSP%2C%20etc.))                     | O(2^n × n)                       | O(2^n)               |
-| [**Bitwise AND of Numbers Range**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Bitwise%20AND%20of%20Numbers%20Range)               | O(1)                             | O(1)                 |
-| [**Bitwise Complement (inversion)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Bitwise%20Complement%20(inversion))             | O(1)                             | O(1)                 |
-| [**Clear ith bit**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Clear%20ith%20bit)                              | O(1)                             | O(1)                 |
-| [**Count set bits (Hamming weight)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Count%20set%20bits%20(Hamming%20weight))            | O(log n)                         | O(1)                 |
-| [**Detect if two numbers have opposite signs**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Detect%20if%20two%20numbers%20have%20opposite%20signs)  | O(1)                             | O(1)                 |
-| [**Divide Two Integers (bitwise division)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Divide%20Two%20Integers%20(bitwise%20division))     | O(1) (32-bit int)                | O(1)                 |
-| [**Find Missing Number using XOR**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Find%20Missing%20Number%20using%20XOR)              | O(n)                             | O(1)                 |
-| [**Find Rightmost Set Bit**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Find%20Rightmost%20Set%20Bit)                     | O(1)                             | O(1)                 |
-| [**Get ith bit**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Get%20ith%20bit)                                | O(1)                             | O(1)                 |
-| [**Gray Code generation**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Gray%20Code%20generation)                       | O(2^n)                           | O(2^n)               |
-| [**Hamming Distance**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Hamming%20Distance)                           | O(1)                             | O(1)                 |
-| [**Maximum Product of Word Lengths**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Maximum%20Product%20of%20Word%20Lengths)            | O(n^2)                           | O(n)                 |
-| [**Power of Two check**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Power%20of%20Two%20check)                         | O(1)                             | O(1)                 |
-| [**Reverse bits of an integer**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Reverse%20bits%20of%20an%20integer)                 | O(1)                             | O(1)                 |
-| [**Set ith bit**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Set%20ith%20bit)                                | O(1)                             | O(1)                 |
-| [**Single Number I**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Single%20Number%20I)                            | O(n)                             | O(1)                 |
-| [**Single Number II**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Single%20Number%20II)                           | O(n)                             | O(1)                 |
-| [**Single Number III**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Single%20Number%20III)                          | O(n)                             | O(1)                 |
-| [**Subsets using bits**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Subsets%20using%20bits)                         | O(2^n × n)                       | O(1)                 |
-|[**Subset Generation with Bitmask**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Subset%20Generation%20with%20Bitmask) |       O(n × 2^n)     |  O(n × 2^n)                                            |
-| [**Sum without '+' (bitwise sum)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Sum%20without%20'%2B'%20(bitwise%20sum))              | O(1) (32-bit int)                | O(1)                 |
-| [**Toggle ith bit**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/Toggle%20ith%20bit)                             | O(1)                             | O(1)                 |
-| [**XOR tricks single/unique numbers**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/XOR%20tricks%20single%20unique%20numbers)           | O(n) (array)                     | O(1)                 |
-| [**XOR tricks swap**](https://github.com/jwm1rr0rb/leetcode/tree/main/Bit%20Manipulation/XOR%20tricks%20swap)                            | O(n) (array), O(1) (swap)        | O(1)                 |
+| **Algorithm / Pattern**                                                                                                                                                   | **Time Complexity**              | **Space Complexity** |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:---------------------|
+| [**Bit masking**]()                                                                                                                                                       | O(1) per op                      | O(1)                 |
+| [**Bitmask DP (TSP, etc.)**]()                                          | O(2^n × n)                       | O(2^n)               |
+| [**Bitwise AND of Numbers Range**]()                               | O(1)                             | O(1)                 |
+| [**Bitwise Complement (inversion)**]()                               | O(1)                             | O(1)                 |
+| [**Clear ith bit**]()                                                              | O(1)                             | O(1)                 |
+| [**Count set bits (Hamming weight)**]()                         | O(log n)                         | O(1)                 |
+| [**Detect if two numbers have opposite signs**]() | O(1)                             | O(1)                 |
+| [**Divide Two Integers (bitwise division)**]()          | O(1) (32-bit int)                | O(1)                 |
+| [**Find Missing Number using XOR**]()                             | O(n)                             | O(1)                 |
+| [**Find Rightmost Set Bit**]()                                            | O(1)                             | O(1)                 |
+| [**Get ith bit**]()                                                                   | O(1)                             | O(1)                 |
+| [**Gray Code generation**]()                                                   | O(2^n)                           | O(2^n)               |
+| [**Hamming Distance**]()                                                             | O(1)                             | O(1)                 |
+| [**Maximum Product of Word Lengths**]()                         | O(n^2)                           | O(n)                 |
+| [**Power of Two check**]()                                                     | O(1)                             | O(1)                 |
+| [**Reverse bits of an integer**]()                                  | O(1)                             | O(1)                 |
+| [**Set ith bit**]()                                                                   | O(1)                             | O(1)                 |
+| [**Single Number I**]()                                                          | O(n)                             | O(1)                 |
+| [**Single Number II**]()                                                           | O(n)                             | O(1)                 |
+| [**Single Number III**]()                                                         | O(n)                             | O(1)                 |
+| [**Subsets using bits**]()                                                      | O(2^n × n)                       | O(1)                 |
+| [**Subset Generation with Bitmask**]()                         |       O(n × 2^n)     |  O(n × 2^n)                                            |
+| [**Sum without '+' (bitwise sum)**]()                         | O(1) (32-bit int)                | O(1)                 |
+| [**Toggle ith bit**]()                                                            | O(1)                             | O(1)                 |
+| [**XOR tricks single/unique numbers**]()                      | O(n) (array)                     | O(1)                 |
+| [**XOR tricks swap**]()                                                             | O(n) (array), O(1) (swap)        | O(1)                 |
 ---
 
 **Legend:**  
@@ -93,18 +93,18 @@
 
 ---
 
-## [**♾️ Divide and Conquer**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer)
+## [**♾️ Divide and Conquer**]()
 
 | **Algorithm**        | **Time Complexity** | **Space Complexity** |
 |:----------------------|:-------------------|:--------------------|
-| [**Closest Pair of Points**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Closest%20Pair%20of%20Points) | O(n log n)      | O(n)             |
-| [**Convex Hull (Divide-and-Conquer version)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Convex%20Hull%20(Divide-and-Conquer%20version)) | O(n log n)      | O(n)             |
-| [**Count Inversions**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Count%20Inversions) | O(n log n)      | O(n)             |
-|[**Karatsuba Algorithm**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Karatsuba%20Algorithm)|O(n^log₂3) ≈ O(n^1.585)|O(n)|
-| [**Kth Element (QuickSelect)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Kth%20Element%20(QuickSelect)) | O(n) avg / O(n²) worst | O(1)      |
-| [**Majority Element (D&C version)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Majority%20Element%20(D%26C%20version)) | O(n log n)      | O(log n)         |
-| [**Maximum Subarray (D&C version)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Maximum%20Subarray%20(D%26C%20version)) | O(n log n)      | O(log n)         |
-|[**Strassen’s Matrix Multiplication**](https://github.com/jwm1rr0rb/leetcode/tree/main/Divide%20and%20Conquer/Strassen%E2%80%99s%20Matrix%20Multiplication)|O(n^log₂7) ≈ O(n^2.81)|O(n²)|
+| [**Closest Pair of Points**]() | O(n log n)      | O(n)             |
+| [**Convex Hull (Divide-and-Conquer version)**]() | O(n log n)      | O(n)             |
+| [**Count Inversions**](() | O(n log n)      | O(n)             |
+|[**Karatsuba Algorithm**]()|O(n^log₂3) ≈ O(n^1.585)|O(n)|
+| [**Kth Element (QuickSelect)**]() | O(n) avg / O(n²) worst | O(1)      |
+| [**Majority Element (D&C version)**]() | O(n log n)      | O(log n)         |
+| [**Maximum Subarray (D&C version)**]() | O(n log n)      | O(log n)         |
+|[**Strassen’s Matrix Multiplication**]()|O(n^log₂7) ≈ O(n^2.81)|O(n²)|
 
 ---
 
@@ -122,27 +122,27 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**Dynamic Programming**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming)
+## [**Dynamic Programming**]()
 
 | **Algorithm**                                                                                                                                  | **Time Complexity**  | **Space Complexity**   |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:-----------------------|
-| [**Coin Change**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Coin%20Change)                                         | O(n * amount)        | O(amount)              |
-| [**DP on Graphs**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/DP%20on%20Graphs)                                     | O(V + E)             | O(V + E)               |
-| [**DP on Trees**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/DP%20on%20Trees)                                       | O(n)                 | O(n)                   |
-| [**Edit Distance**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Edit%20Distance)                                     | O(m * n)             | O(m * n)               |
-| [**House Robber**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/House%20Robber)                                       | O(n)                 | O(1)                   |
-| [**Knapsack**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Knapsack)                                                 | O(n * W)             | O(n * W)               |
-| [**Longest Common Subsequence**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Longest%20Common%20Subsequence)         | O(m * n)             | O(m * n)               |
-| [**Longest Increasing Subsequence**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Longest%20Increasing%20Subsequence) | O(n * log n)         | O(n)                   |
-| [**Longest Palindromic Substring**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Longest%20Palindromic%20Substring)   | O(n^2)               | O(n^2)                 |
-| [**Matrix Chain Multiplication**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Matrix%20Chain%20Multiplication)       | O(n^3)               | O(n^2)                 |
-| [**Memoization**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Memoization)                                           | O(n)                 | O(n)                   |
-| [**Paint House**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Paint%20House)                                         | O(n)                 | O(n)                   |
-| [**Palindrome Subarray**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Partition%20problem)                           | O(n^2)               | O(n^2)                 |
-| [**Palindrome Subsequence**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Palindrome%20Subsequence)                   | O(n^2)               | O(n^2)                 |
-| [**Partition problem**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Partition%20problem)                             | O(n * sum)           | O(n * sum)             |
-| [**Tabulation**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Tabulation)                                             | O(n * sum/2)         | O(n * sum/2)           |
-| [**Word Break**](https://github.com/jwm1rr0rb/leetcode/tree/main/Dynamic%20Programming/Word%20Break)                                           | O(n²)                | O(n)                   |
+| [**Coin Change**]()                                         | O(n * amount)        | O(amount)              |
+| [**DP on Graphs**]()                                    | O(V + E)             | O(V + E)               |
+| [**DP on Trees**]()                                       | O(n)                 | O(n)                   |
+| [**Edit Distance**]()                                    | O(m * n)             | O(m * n)               |
+| [**House Robber**]()                                       | O(n)                 | O(1)                   |
+| [**Knapsack**]()                                                 | O(n * W)             | O(n * W)               |
+| [**Longest Common Subsequence**]()         | O(m * n)             | O(m * n)               |
+| [**Longest Increasing Subsequence**]() | O(n * log n)         | O(n)                   |
+| [**Longest Palindromic Substring**]()   | O(n^2)               | O(n^2)                 |
+| [**Matrix Chain Multiplication**]()       | O(n^3)               | O(n^2)                 |
+| [**Memoization**]()                                           | O(n)                 | O(n)                   |
+| [**Paint House**]()                                         | O(n)                 | O(n)                   |
+| [**Palindrome Subarray**]()                           | O(n^2)               | O(n^2)                 |
+| [**Palindrome Subsequence**]()                   | O(n^2)               | O(n^2)                 |
+| [**Partition problem**]()                             | O(n * sum)           | O(n * sum)             |
+| [**Tabulation**]()                                             | O(n * sum/2)         | O(n * sum/2)           |
+| [**Word Break**]()                                           | O(n²)                | O(n)                   |
 
 ### **Legend**
 
@@ -155,21 +155,21 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**📐 Geometry**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry)
+## [**📐 Geometry**]()
 
 | **Algorithm**                                       | **Time Complexity** | **Space Complexity** |
 |:----------------------------------------------------|:--------------------|:---------------------|
-| [**Area of polygon**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Area%20of%20polygon)                             | O(n)                | O(1)                 |
-| [**Circle Intersection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Circle%20Intersection)                         | O(1)                | O(1)                 |
-| [**Closest pair of points**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Closest%20pair%20of%20points)                      | O(n log n)          | O(n)                 |
-| [**Convex Hull Graham Scan**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Convex%20Hull%20Graham%20Scan)                     | O(n log n)          | O(n)                 |
-| [**Convex Hull Jarvis March**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Convex%20Hull%20Jarvis%20March)                    | O(nh)               | O(1)                 |
-| [**Line intersection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Line%20intersection)                           | O(1)                | O(1)                 |
-| [**Line Segment Intersection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Line%20Segment%20Intersection)                   | O(1)                | O(1)                 |
-| [**Point in Polygon (Ray Casting)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Point%20in%20Polygon%20(Ray%20Casting))              | O(n)                | O(1)                 |
-| [**Rectangle Intersection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Rectangle%20Intersection)                      | O(1)                | O(1)                 |
-| [**Rectangle Overlap**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Rectangle%20Overlap)                           | O(1)                | O(1)                 |
-| [**Rotating Calipers (Convex Polygon Diameter)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Geometry/Rotating%20Calipers%20(Convex%20Polygon%20Diameter)) | O(n)                | O(1)                 |
+| [**Area of polygon**]()                            | O(n)                | O(1)                 |
+| [**Circle Intersection**]()                         | O(1)                | O(1)                 |
+| [**Closest pair of points**]()                     | O(n log n)          | O(n)                 |
+| [**Convex Hull Graham Scan**]()                     | O(n log n)          | O(n)                 |
+| [**Convex Hull Jarvis March**]()                    | O(nh)               | O(1)                 |
+| [**Line intersection**]()                           | O(1)                | O(1)                 |
+| [**Line Segment Intersection**]()                  | O(1)                | O(1)                 |
+| [**Point in Polygon (Ray Casting)**]()              | O(n)                | O(1)                 |
+| [**Rectangle Intersection**]()                      | O(1)                | O(1)                 |
+| [**Rectangle Overlap**]()                           | O(1)                | O(1)                 |
+| [**Rotating Calipers (Convex Polygon Diameter)**]() | O(n)                | O(1)                 |
 
 ---
 
@@ -185,16 +185,16 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**Greedy**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms)
+## [**Greedy**]()
 
 | **Algorithm**                         | **Time Complexity** | **Space Complexity** |
 |:--------------------------------------|:--------------------|:---------------------|
-| [**Activity Selection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Activity%20Selection)            | O(n)	              | O(1)                 |
-| [**Fractional Knapsack**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Fractional%20Knapsack)           | O(n log n)          | O(1)                 |
-| [**Huffman Encoding**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Huffman%20Encoding)              | O(n log n)          | O(n)                 |
-| [**Job Scheduling**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Job%20Scheduling)                | O(n log n)          | O(n)                 |
-| [**Minimum Spanning Tree Kruskal**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Minimum%20Spanning%20Tree%20Kruskal) | O(E log E)          | O(E)                 |
-| [**Minimum Spaning Tree Prim**](https://github.com/jwm1rr0rb/leetcode/tree/main/Greedy%20Algorithms/Minimum%20Spanning%20Tree%20Prim)     | O(E + V log V)      | O(V + E)             |
+| [**Activity Selection**](()           | O(n)	              | O(1)                 |
+| [**Fractional Knapsack**]()           | O(n log n)          | O(1)                 |
+| [**Huffman Encoding**]()              | O(n log n)          | O(n)                 |
+| [**Job Scheduling**]()                | O(n log n)          | O(n)                 |
+| [**Minimum Spanning Tree Kruskal**]() | O(E log E)          | O(E)                 |
+| [**Minimum Spaning Tree Prim**]()     | O(E + V log V)      | O(V + E)             |
 
 ---
 
@@ -210,17 +210,17 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 | **Algorithm**        | **Time Complexity** | **Space Complexity** |
 |:-----------------------------|:----------------------|:----------------------------------|
-| [**Chinese Remainder Theorem**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Chinese%20Remainder%20Theorem)                | O(k log n)         | O(1)             |
-| [**Combinatorics (nCr, factorials with mod)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Combinatorics%20(nCr%2C%20factorials%20with%20mod)) | O(n) preprocessing | O(n)             |
-| [**Extended Euclidean Algorithm**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Extended%20Euclidean) | O(log n)  | O(1)               |                  |
-| [**Fast Power (Exponentiation by Squaring)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Fast%20Power%20(Exponentiation%20by%20Squaring))  | O(log n)           | O(1)             |
-| [**Fermat’s Little Theorem**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Fermat%E2%80%99s%20Little%20Theorem)                  | O(log n)           | O(1)             |
-| [**GCD (Euclidean Algorithm)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/GCD%20Euclidean%20)                | O(log n)           | O(1)             |
-| [**LCM (Euclidean Algorithm)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/LCM%20Euclidean%20)                | O(log n)           | O(1)             |
-| [**Modular Inverse**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Modular%20Inverse)                         |       O(log(min(a,m)))             |     O(log(min(a,m)))             |
-| [**Primality Test (Miller-Rabin)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Primality%20Test%20(Miller-Rabin))            | O(klog3n)              | O(logn)           |
-| [**Prime Factorization**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Prime%20Factorization)                      | O(√n)              | O(1)             |
-| [**Sieve of Eratosthenes**](https://github.com/jwm1rr0rb/leetcode/tree/main/Mathematical%20Algorithms/Sieve%20of%20Eratosthenes)                    | O(n log log n)     | O(n)             |
+| [**Chinese Remainder Theorem**]()                | O(k log n)         | O(1)             |
+| [**Combinatorics (nCr, factorials with mod)**]() | O(n) preprocessing | O(n)             |
+| [**Extended Euclidean Algorithm**]() | O(log n)  | O(1)               |                  |
+| [**Fast Power (Exponentiation by Squaring)**]()  | O(log n)           | O(1)             |
+| [**Fermat’s Little Theorem**]()                  | O(log n)           | O(1)             |
+| [**GCD (Euclidean Algorithm)**]()                | O(log n)           | O(1)             |
+| [**LCM (Euclidean Algorithm)**]()                | O(log n)           | O(1)             |
+| [**Modular Inverse**]()                         |       O(log(min(a,m)))             |     O(log(min(a,m)))             |
+| [**Primality Test (Miller-Rabin)**]()            | O(klog3n)              | O(logn)           |
+| [**Prime Factorization**]()                      | O(√n)              | O(1)             |
+| [**Sieve of Eratosthenes**]()                    | O(n log log n)     | O(n)             |
 
 ---
 
@@ -236,17 +236,17 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ## [**🧬 Miscellaneous Must-Know**]()
 
-| **Algorithm**                                        | **Time Complexity**   | **Space Complexity** |
-|:-----------------------------------------------------|:----------------------|:---------------------|
-| [**Deque (Double-ended Queue)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Deque%20(Double-ended%20Queue))                   | O(1) per op           | O(n)                 |
-| [**Hashing (HashMap / HashSet usage)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Hashing%20(HashMap%20%26%20HashSet%20usage))            | O(1) avg / O(n) worst | O(n)                 |
-| [**LFU Cache**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/LFU%20Cache)                                    | O(1) per op           | O(n)                 |
-| [**LRU Cache (with Doubly Linked List + HashMap)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/LRU%20Cache%20(with%20Doubly%20Linked%20List%20%2B%20HashMap))| O(1) per op           | O(n)                 |
-| [**Monotonic Queue**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Monotonic%20Queue)                              | O(n)                  | O(n)                 |
-| [**Monotonic Stack**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Monotonic%20Stack)                              | O(n)                  | O(n)                 |
-| [**Ordered Map/Set(TreeMap/TreeSet)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Ordered%20Map-Set(TreeMap-TreeSet))                              | O(log n) per op       | O(n)                 |
-| [**Priority Queue (Heap)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Miscellaneous/Priority%20Queue%20(Heap))                        | O(log n) per op       | O(n)                 |
-| [**Top K Elements (Heap + Map)**]()                  | O(n log k)            | O(k)                 |               
+| **Algorithm**                                                                                                                                                                    | **Time Complexity**   | **Space Complexity** |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|:---------------------|
+| [**Deque (Double-ended Queue)**]()                                                                                                                                               | O(1) per op           | O(n)                 |
+| [**Hashing (HashMap / HashSet usage)**]()                                                                                                                                        | O(1) avg / O(n) worst | O(n)                 |
+| [**LFU Cache**]()                                                                                                                                                                  | O(1) per op           | O(n)                 |
+| [**LRU Cache (with Doubly Linked List + HashMap)**]() | O(1) per op           | O(n)                 |
+| [**Monotonic Queue**]()                                                                           | O(n)                  | O(n)                 |
+| [**Monotonic Stack**]()                                                                          | O(n)                  | O(n)                 |
+| [**Ordered Map/Set(TreeMap/TreeSet)**]()                                       | O(log n) per op       | O(n)                 |
+| [**Priority Queue (Heap)**]()                                                            | O(log n) per op       | O(n)                 |
+| [**Top K Elements (Heap + Map)**]()                                                                                                                                              | O(n log k)            | O(k)                 |               
 
 ---
 
@@ -267,26 +267,26 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**🔄 Search Algorithms**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms)
+## [**🔄 Search Algorithms**]()
 
-### [**Graph Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Graph)
+### [**Graph Search**]()
 
-| Algorithm                | Time Complexity                     | Space Complexity |
-|:-------------------------|:------------------------------------|:-----------------|
-| [**A-star Search**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/A%5C*%20Search/READMEen.md)                | O(E) (depends on heuristic)         | O(V)             |
-| [**Bellman-Ford Algorithm**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Bellman-Ford%20Algorithm/READMEen.md)   | O(VE)                               | O(V)             |
-| [**Bidirectional BFS**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Bidirectional%20BFS/READMEen.md)        | O(2^(d/2))                          | O(V)             |
-| [**Breadth-First Search (BFS)**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Breadth-First%20Search/READMEen.md)| O(V + E)                           | O(V)             |
-|[**Connected Components**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Connected%20Components/READMEen.md)|       O(V + E)     |        O(V + E)                | O(V)
-|[**Cycle Detection**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Graph/Cycle%20Detection)|         O(V + E)        |                  O(V)      |
-| [**Depth-First Search (DFS)**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Depth-First%20Search/READMEen.md) | O(V + E)                            | O(V) (O(h) for trees) |
-| [**Dijkstra’s Algorithm**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Dijkstra%E2%80%99s%20Algorithm/READMEen.md)     | O((V + E) log V)                    | O(V)             |
-|[**Floyd-Warshall**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Floyd-Warshall/READMEen.md)|O(V³)|O(V²)|
-| [**Kruskal**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Kruskal/READMEen.md)                  | O(E log E)                          | O(V)             |
-| [**Prim**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Prim/READMEen.md)                    | O(E + V log V) (with min-heap)      | O(V)             |
-| [**Tarjan**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Tarjan/READMEen.md)                   | O(V + E)                            | O(V + E)         |
-| [**Topological Sort**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Topological%20Sort/READMEen.md)         | O(V + E)                            | O(V)             |
-| [**Union-Find (DSU)**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/Graph/Union-Find%20(DSU)/READMEen.md)         | O(α(n)) per op (almost O(1)), O(n) init | O(n)        |
+| Algorithm                                                                                                                                          | Time Complexity                     | Space Complexity |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|:-----------------|
+| [**A-star Search**]()                                                                                                                              | O(E) (depends on heuristic)         | O(V)             |
+| [**Bellman-Ford Algorithm**]()                                                                                                                     | O(VE)                               | O(V)             |
+| [**Bidirectional BFS**]()                                                                                                                          | O(2^(d/2))                          | O(V)             |
+| [**Breadth-First Search (BFS)**]()                                                                                                                 | O(V + E)                           | O(V)             |
+| [**Connected Components**]()                                                                                                                       |       O(V + E)     |        O(V + E)                | O(V)
+| [**Cycle Detection**]()                                                                                                                            |         O(V + E)        |                  O(V)      |
+| [**Depth-First Search (DFS)**]                                                                                                                     | O(V + E)                            | O(V) (O(h) for trees) |
+| [**Dijkstra’s Algorithm**]()                                                                                                                       | O((V + E) log V)                    | O(V)             |
+| [**Floyd-Warshall**]()                                                                                                                               |O(V³)|O(V²)|
+| [**Kruskal**]()                                      | O(E log E)                          | O(V)             |
+| [**Prim**]()                                             | O(E + V log V) (with min-heap)      | O(V)             |
+| [**Tarjan**]()                                        | O(V + E)                            | O(V + E)         |
+| [**Topological Sort**]()                   | O(V + E)                            | O(V)             |
+| [**Union-Find (DSU)**]()                   | O(α(n)) per op (almost O(1)), O(n) init | O(n)        |
 
 **Legend:**  
 V — number of vertices (nodes)  
@@ -297,17 +297,17 @@ h — tree height
 
 ---
 
-### [**Array/List Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search)
+### [**Array/List Search**]()
 
 | Algorithm                       | Time Complexity         | Space Complexity |
 |:--------------------------------|:-----------------------|:-----------------|
-| [**Binary Search (must-know)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Binary%20Search)        | O(log n)               | O(1)             |
-| [**Exponential Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Exponential%20Search)               | O(log i)               | O(1)             |
-| [**Jump Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Jump%20Search)                      | O(√n)                  | O(1)             |
-| [**Linear Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Linear%20Search)                    | O(n)                   | O(1)             |
-| [**Search in 2D Matrix**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Search%20in%202D%20Matrix)              | O(m + n) or O(log(mn)) | O(1)             |
-| [**Search in Rotated Sorted Array**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Search%20in%20Rotated%20Sorted%20Array)   | O(log n)               | O(1)             |
-| [**Ternary Search (rare)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Ternary%20Search)           | O(log₃ n)              | O(1)             |
+| [**Binary Search (must-know)**]()        | O(log n)               | O(1)             |
+| [**Exponential Search**]()               | O(log i)               | O(1)             |
+| [**Jump Search**]()                      | O(√n)                  | O(1)             |
+| [**Linear Search**]()                    | O(n)                   | O(1)             |
+| [**Search in 2D Matrix**]()              | O(m + n) or O(log(mn)) | O(1)             |
+| [**Search in Rotated Sorted Array**]()   | O(log n)               | O(1)             |
+| [**Ternary Search (rare)**]()           | O(log₃ n)              | O(1)             |
 
 **Legend:**  
 h — height of tree (log n for balanced, up to n for skewed)
@@ -317,16 +317,16 @@ m — pattern length (for string search)
 
 ---
 
-### [**String Search**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/String/READMEen.md)
+### [**String Search**]()
 
 | Algorithm              | Time Complexity              | Space Complexity |
 |:------------------------|:-----------------------------|:------------------|
-| [**Boyer-Moore**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/String/Boyer-Moore/READMEen.md)            | O(n + m)                    | O(m + k)         |
-| [**KMP (Knuth-Morris-Pratt)**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/String/KMP%20(Knuth-Morris-Pratt)/READMEen.md)| O(n + m)                   | O(m)             |
-| [**Manacher’s Algorithm**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/String/Manacher%E2%80%99s%20Algorithm*)                |   O(n)          |        O(n)          |
-| [**Naive Substring Search**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/String/Naive%20Substring%20Search/READMEen.md) | O((n-m+1)m)                 | O(1)             |
-| [**Rabin-Karp**](https://github.com/jwm1rr0rb/leetcode/blob/main/Search%20Algorithms/String/Rabin-Karp/READMEen.md)             | O(n + m) (avg) / O(nm) (worst) | O(1)          |
-| [**Z-Algorithm**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/String/Z-Algorithm)                |         O(n)      |        O(n)         |
+| [**Boyer-Moore**]()            | O(n + m)                    | O(m + k)         |
+| [**KMP (Knuth-Morris-Pratt)**]()| O(n + m)                   | O(m)             |
+| [**Manacher’s Algorithm**]()                |   O(n)          |        O(n)          |
+| [**Naive Substring Search**]() | O((n-m+1)m)                 | O(1)             |
+| [**Rabin-Karp**]()            | O(n + m) (avg) / O(nm) (worst) | O(1)          |
+| [**Z-Algorithm**]()                |         O(n)      |        O(n)         |
 
 **Legend:**  
 n — number of elements in array  
@@ -335,20 +335,20 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ---
 
-### [**Tree Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree)
+### [**Tree Search**]()
 
 | **Algorithm**                              | **Time Complexity** | **Space Complexity** |
 |:-------------------------------------------|:--------------------|:---------------------|
-| [**Binary Search Tree Search**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Search/Binary%20Search%20Tree%20Search)        | O(h) (O(log n) for balanced)    | O(1)        |
-| [**Deserialize Binary Tree**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Deserialize%20Binary%20Tree) |          |             O(n)         | O(n)                      |
-| [**Fenwick Tree (Binary Indexed Tree)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Fenwick%20Tree%20(Binary%20Indexed%20Tree)) |    O(log n)                 |       O(n)               |
-| [**Lowest Common Ancestor**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Lowest%20Common%20Ancestor%20(LCA)) |           |     O(n)                | O(n)                     |
-| [**Segment Tree**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Segment%20Tree)                       |    O(log n)                 |       O(n)               |
-| [**Serialize Binary Tree**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Serialize%20Binary%20Tree) |            |     O(n)                |       O(n)               |
-| [**Traversals: In-order**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Traversals%3A%20In-order)               |     O(n)                |         O(n)             |
-| [**Traversals: Post-order**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Traversals%3A%20Post-order)             |             O(n)        |     O(h)                 |
-| [**Traversals: Pre-order**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Traversals%3A%20Pre-order)              |       O(n)              |     O(h)                 |
-| [**Trie(Prefix Tree)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Search%20Algorithms/Tree/Trie%20(Prefix%20Tree))                  |   O(L)                  |          O(N*L)            |
+| [**Binary Search Tree Search**]()        | O(h) (O(log n) for balanced)    | O(1)        |
+| [**Deserialize Binary Tree**]() |          |             O(n)         | O(n)                      |
+| [**Fenwick Tree (Binary Indexed Tree)**]() |    O(log n)                 |       O(n)               |
+| [**Lowest Common Ancestor**]() |           |     O(n)                | O(n)                     |
+| [**Segment Tree**]()                       |    O(log n)                 |       O(n)               |
+| [**Serialize Binary Tree**]() |            |     O(n)                |       O(n)               |
+| [**Traversals: In-order**]()               |     O(n)                |         O(n)             |
+| [**Traversals: Post-order**]()             |             O(n)        |     O(h)                 |
+| [**Traversals: Pre-order**]()              |       O(n)              |     O(h)                 |
+| [**Trie(Prefix Tree)**]()                  |   O(L)                  |          O(N*L)            |
 
 ### Legend
 
@@ -370,19 +370,19 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 ---
 
 
-## [**🔁 Sorting Algorithms**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms)
+## [**🔁 Sorting Algorithms**]()
 
 | **Algorithm**      | **Time Complexity (Best / Avg / Worst)** | **Space Complexity** |
 |:-------------------|:-----------------------------------------|:--------------------|
-| [**Bubble Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Bubble%20Sort)    | O(n) / O(n²) / O(n²)                 | O(1)             |
-| [**Bucket Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Bucket%20Sort)    | O(n + k) (avg), O(n²) (worst)        | O(n + k)         |
-| [**Counting Sort (for integers or limited range)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Counting%20Sort%20)  | O(n + k)                             | O(k)             |
-| [**Heap Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Heap%20Sort)      | O(n log n) / O(n log n) / O(n log n) | O(1)             |
-| [**Insertion Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Insertion%20Sort) | O(n) / O(n²) / O(n²)                 | O(1)             |
-| [**Merge Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Merge%20Sort)     | O(n log n) / O(n log n) / O(n log n) | O(n)             |
-| [**Quick Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Quick%20Sort)      | O(n log n) / O(n log n) / O(n²)      | O(log n)         |
-| [**Radix Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Radix%20Sort)     | O(nk)                                | O(n + k)         |
-| [**Selection Sort**](https://github.com/jwm1rr0rb/leetcode/tree/main/Sorting%20Algorithms/Selection%20Sort) | O(n²) / O(n²) / O(n²)                | O(1)             |
+| [**Bubble Sort**]()    | O(n) / O(n²) / O(n²)                 | O(1)             |
+| [**Bucket Sort**]()    | O(n + k) (avg), O(n²) (worst)        | O(n + k)         |
+| [**Counting Sort (for integers or limited range)**]()  | O(n + k)                             | O(k)             |
+| [**Heap Sort**]()      | O(n log n) / O(n log n) / O(n log n) | O(1)             |
+| [**Insertion Sort**]() | O(n) / O(n²) / O(n²)                 | O(1)             |
+| [**Merge Sort**]()     | O(n log n) / O(n log n) / O(n log n) | O(n)             |
+| [**Quick Sort**]()      | O(n log n) / O(n log n) / O(n²)      | O(log n)         |
+| [**Radix Sort**]()     | O(nk)                                | O(n + k)         |
+| [**Selection Sort**]() | O(n²) / O(n²) / O(n²)                | O(1)             |
 
 ---
 
@@ -396,26 +396,26 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ---
 
-## [**🧩 Two Pointers / Sliding Window**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window)
+## [**🧩 Two Pointers / Sliding Window**]()
 
-| **Algorithm**                                          | **Time Complexity** | **Space Complexity** |
-|:-------------------------------------------------------|:--------------------|:---------------------|
-| [**Backspace String Compare**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Backspace%20String%20Compare)                       | O(n)                | O(1)                 |
-| [**Container With Most Water**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Container%20With%20Most%20Water)                      | O(n)                | O(1)                 |
-| [**Find All Anagrams in a String**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Find%20All%20Anagrams%20in%20a%20String)                  | O(n)                | O(1) or O(k)         |
-| [**Four Sum**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Four%20Sum)                                       | O(n² / n³)          | O(n)                 |
-| [**Longest Repeating Character Replacement**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Longest%20Repeating%20Character%20Replacement)        | O(n)                | O(1)                 |
-| [**Longest Substring Without Repeating Characters**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Longest%20Substring%20Without%20Repeating%20Characters) | O(n)                | O(n)                 |
-| [**Maximum Subarray (Kadane’s Algorithm)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Maximum%20Subarray%20(Kadane%E2%80%99s%20Algorithm))          | O(n)                | O(1)                 |
-| [**Minimum Size Subarray Sum**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Minimum%20Size%20Subarray%20Sum)                      | O(n)                | O(1)                 |
-| [**Minimum Window Substring**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Minimum%20Window%20Substring)                       | O(n)                | O(n)                 |
-| [**Move Zeroes**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Move%20Zeroes)                                    | O(n)                | O(1)                 |
-| [**Remove Duplicates from Sorted Array**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Remove%20Duplicates%20from%20Sorted%20Array)            | O(n)                | O(1)                 |
-|[**Sliding Window**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Sliding%20window)|O(n)|O(1)|
-| [**Sort Colors (Dutch National Flag)**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Sort%20Colors%20(Dutch%20National%20Flag))              | O(n)                | O(1)                 |
-| [**Three Sum**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Three%20Sum)                                      | O(n² / n³)          | O(n)                 |
-| [**Trapping Rain Water**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Trapping%20Rain%20Water)                            | O(n)                | O(1)                 |
-| [**Two Sum**](https://github.com/jwm1rr0rb/leetcode/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Two%20Sum)                                        | O(n² / n³)          | O(n)                 |
+| **Algorithm**                                                                                                                                                                             | **Time Complexity** | **Space Complexity** |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:---------------------|
+| [**Backspace String Compare**]()                                                                                                                                                          | O(n)                | O(1)                 |
+| [**Container With Most Water**]()                                                                                                                                                         | O(n)                | O(1)                 |
+| [**Find All Anagrams in a String**]()                                                                                                                                                     | O(n)                | O(1) or O(k)         |
+| [**Four Sum**]()                                                                                                                                                                          | O(n² / n³)          | O(n)                 |
+| [**Longest Repeating Character Replacement**]()                                                                                                                                           | O(n)                | O(1)                 |
+| [**Longest Substring Without Repeating Characters**]()                                                                                                                                    | O(n)                | O(n)                 |
+| [**Maximum Subarray (Kadane’s Algorithm)**]()                                                                                                                                             | O(n)                | O(1)                 |
+| [**Minimum Size Subarray Sum**]()                                                                                                                                                         | O(n)                | O(1)                 |
+| [**Minimum Window Substring**]()                                                                                                                                                          | O(n)                | O(n)                 |
+| [**Move Zeroes**]()                                                                                                                                                                       | O(n)                | O(1)                 |
+| [**Remove Duplicates from Sorted Array**]()                                                                                                                                               | O(n)                | O(1)                 |
+| [**Sliding Window**]()                                                                                                                                                                      |O(n)|O(1)|
+| [**Sort Colors (Dutch National Flag)**]()                | O(n)                | O(1)                 |
+| [**Three Sum**]()                                                                      | O(n² / n³)          | O(n)                 |
+| [**Trapping Rain Water**]()                                               | O(n)                | O(1)                 |
+| [**Two Sum**]()                                                                         | O(n² / n³)          | O(n)                 |
 
 ---
 
@@ -429,129 +429,4 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ---
 
-# Top 20 System Design Interview Topics (with Bonus Advanced Topics)
-
-## 1. Scalability and Load Balancing
-- Horizontal vs. vertical scaling
-- Load balancers (hardware/software)
-- Stateless vs. stateful services
-
-## 2. Caching (Types, Eviction Policies, CDN)
-- In-memory caches (Redis, Memcached)
-- Cache invalidation strategies
-- Content Delivery Networks (CDN)
-
-## 3. Database Design (SQL vs NoSQL, Sharding, Replication)
-- Relational vs non-relational databases
-- Sharding, partitioning, replication
-- Indexing and schema design
-
-## 4. Consistency and Availability (CAP Theorem, Eventual Consistency)
-- Strong vs eventual consistency
-- CAP theorem
-- Quorum-based approaches
-
-## 5. API Design (REST, gRPC, GraphQL, Rate Limiting)
-- RESTful APIs
-- gRPC, GraphQL
-- Rate limiting and versioning
-
-## 6. Microservices vs Monolith Architecture
-- Pros and cons
-- Service communication (synchronous, asynchronous)
-- Service orchestration and choreography
-
-## 7. Asynchronous Processing (Message Queues, Pub/Sub, Event-Driven Design)
-- Message brokers (RabbitMQ, Kafka)
-- Pub/Sub patterns
-- Event-driven architecture
-
-## 8. Search Systems (Full-Text Search, Elasticsearch, Ranking)
-- Indexing and querying
-- Elasticsearch, Solr
-- Search ranking algorithms
-
-## 9. Data Partitioning (Sharding, Partition Keys)
-- Hash-based vs range-based sharding
-- Choosing partition keys
-- Rebalancing partitions
-
-## 10. Data Storage (Blob/Object Storage, File Systems)
-- Object storage (S3, GCS)
-- File storage vs block storage
-- Data backup and durability
-
-## 11. Authentication and Authorization (OAuth, JWT, SSO)
-- User authentication flows
-- OAuth2, OpenID Connect
-- JWT, SSO mechanisms
-
-## 12. Distributed Systems (Leader Election, Consensus, Paxos/Raft)
-- Leader election algorithms
-- Consensus protocols (Paxos, Raft)
-- Coordination services (ZooKeeper, etcd)
-
-## 13. Monitoring, Logging, and Alerting
-- Metrics collection (Prometheus, Grafana)
-- Centralized logging (ELK, EFK)
-- Alerting mechanisms
-
-## 14. Content Delivery Networks (CDN) and Edge Computing
-- CDN basics and use cases
-- Edge caching
-- Latency reduction strategies
-
-## 15. Rate Limiting and Throttling
-- User/IP rate limiting
-- Token bucket, leaky bucket algorithms
-- API gateway integration
-
-## 16. API Gateway and Service Discovery
-- API gateway responsibilities
-- Service registration and discovery (Consul, Eureka)
-
-## 17. Designing for Fault Tolerance and High Availability
-- Redundancy and failover
-- Circuit breakers, retries
-- Disaster recovery
-
-## 18. Data Consistency Patterns (Saga, 2PC, Event Sourcing)
-- Saga pattern (orchestration vs choreography)
-- Two-phase commit (2PC)
-- Event sourcing and CQRS
-
-## 19. Designing Large-Scale Systems (e.g., URL Shortener, News Feed, Chat System)
-- End-to-end design of common real-world systems
-- High-level architecture, bottleneck analysis
-
-## 20. Security and Privacy (Encryption, Secure Data Storage, DDoS Protection)
-- Data encryption in transit and at rest
-- Secure credential management
-- DDoS mitigation techniques
-
----
-
-## **Bonus / Advanced Topics**
-
-### - Real-time Data Processing (WebSockets, Streams)
-  - WebSockets, SSE, gRPC streaming
-  - Real-time analytics pipelines
-
-### - Graph Databases
-  - When to use graph DBs (Neo4j, Amazon Neptune)
-  - Query patterns (Cypher, Gremlin)
-
-### - Data Lake and Data Warehouse Basics
-  - Differences and use cases
-  - ETL/ELT pipelines
-
-### - Infrastructure as Code / Container Orchestration (Kubernetes, Docker)
-  - Docker basics, Kubernetes orchestration
-  - Declarative infrastructure (Terraform, CloudFormation)
-
-### - Multi-Region Deployment / Geo-Replication
-  - Strategies for global availability
-  - Data synchronization across regions
-
----
 
