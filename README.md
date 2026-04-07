@@ -267,26 +267,26 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**🔄 Search Algorithms**]()
+## [**🔄 Search Algorithms**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms)
 
-### [**Graph Search**]()
+### [**Graph Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph)
 
-| Algorithm                                                                                                                                          | Time Complexity                     | Space Complexity |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|:-----------------|
-| [**A-star Search**]()                                                                                                                              | O(E) (depends on heuristic)         | O(V)             |
-| [**Bellman-Ford Algorithm**]()                                                                                                                     | O(VE)                               | O(V)             |
-| [**Bidirectional BFS**]()                                                                                                                          | O(2^(d/2))                          | O(V)             |
-| [**Breadth-First Search (BFS)**]()                                                                                                                 | O(V + E)                           | O(V)             |
-| [**Connected Components**]()                                                                                                                       |       O(V + E)     |        O(V + E)                | O(V)
-| [**Cycle Detection**]()                                                                                                                            |         O(V + E)        |                  O(V)      |
-| [**Depth-First Search (DFS)**]                                                                                                                     | O(V + E)                            | O(V) (O(h) for trees) |
-| [**Dijkstra’s Algorithm**]()                                                                                                                       | O((V + E) log V)                    | O(V)             |
-| [**Floyd-Warshall**]()                                                                                                                               |O(V³)|O(V²)|
-| [**Kruskal**]()                                      | O(E log E)                          | O(V)             |
-| [**Prim**]()                                             | O(E + V log V) (with min-heap)      | O(V)             |
-| [**Tarjan**]()                                        | O(V + E)                            | O(V + E)         |
-| [**Topological Sort**]()                   | O(V + E)                            | O(V)             |
-| [**Union-Find (DSU)**]()                   | O(α(n)) per op (almost O(1)), O(n) init | O(n)        |
+| Algorithm                                                                                                                              | Time Complexity                     | Space Complexity |
+|:---------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|:-----------------|
+| [**A-star Search**]()                                                                                                                  | O(E) (depends on heuristic)         | O(V)             |
+| [**Bellman-Ford Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Bellman-Ford%20Algorithm)   | O(VE)                               | O(V)             |
+| [**Bidirectional BFS**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Bidirectional%20BFS)             | O(2^(d/2))                          | O(V)             |
+| [**Breadth-First Search (BFS)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Breadth-First%20Search) | O(V + E)                           | O(V)             |
+| [**Connected Components**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Connected%20Components)       |       O(V + E)     |        O(V + E)                | O(V)
+| [**Cycle Detection**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Cycle%20Detection)                 |         O(V + E)        |                  O(V)      |
+| [**Depth-First Search (DFS)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Depth-First%20Search)                                                                                                       | O(V + E)                            | O(V) (O(h) for trees) |
+| [**Dijkstra’s Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Dijkstra%E2%80%99s%20Algorithm)                                                                                                           | O((V + E) log V)                    | O(V)             |
+| [**Floyd-Warshall**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Floyd-Warshall)                                                                                                                 |O(V³)|O(V²)|
+| [**Kruskal**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Kruskal)                                                                                                                        | O(E log E)                          | O(V)             |
+| [**Prim**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Graph/Prim)                                                                                                                           | O(E + V log V) (with min-heap)      | O(V)             |
+| [**Tarjan**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/Graph/Tarjan/READMEen.md)                                                                                                                         | O(V + E)                            | O(V + E)         |
+| [**Topological Sort**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/Graph/Topological%20Sort/READMEen.md)                                                                                                               | O(V + E)                            | O(V)             |
+| [**Union-Find (DSU)**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/Graph/Union-Find%20(DSU)/READMEen.md)                                                                                                               | O(α(n)) per op (almost O(1)), O(n) init | O(n)        |
 
 **Legend:**  
 V — number of vertices (nodes)  
@@ -297,17 +297,17 @@ h — tree height
 
 ---
 
-### [**Array/List Search**]()
+### [**Array/List Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search)
 
 | Algorithm                       | Time Complexity         | Space Complexity |
 |:--------------------------------|:-----------------------|:-----------------|
-| [**Binary Search (must-know)**]()        | O(log n)               | O(1)             |
-| [**Exponential Search**]()               | O(log i)               | O(1)             |
-| [**Jump Search**]()                      | O(√n)                  | O(1)             |
-| [**Linear Search**]()                    | O(n)                   | O(1)             |
-| [**Search in 2D Matrix**]()              | O(m + n) or O(log(mn)) | O(1)             |
-| [**Search in Rotated Sorted Array**]()   | O(log n)               | O(1)             |
-| [**Ternary Search (rare)**]()           | O(log₃ n)              | O(1)             |
+| [**Binary Search (must-know)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Binary%20Search%20Tree%20Search)        | O(log n)               | O(1)             |
+| [**Exponential Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Exponential%20Search)               | O(log i)               | O(1)             |
+| [**Jump Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Jump%20Search)                      | O(√n)                  | O(1)             |
+| [**Linear Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Linear%20Search)                    | O(n)                   | O(1)             |
+| [**Search in 2D Matrix**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Search%20in%202D%20Matrix)              | O(m + n) or O(log(mn)) | O(1)             |
+| [**Search in Rotated Sorted Array**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Search%20in%20Rotated%20Sorted%20Array)   | O(log n)               | O(1)             |
+| [**Ternary Search (rare)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Search/Ternary%20Search)           | O(log₃ n)              | O(1)             |
 
 **Legend:**  
 h — height of tree (log n for balanced, up to n for skewed)
@@ -317,16 +317,16 @@ m — pattern length (for string search)
 
 ---
 
-### [**String Search**]()
+### [**String Search**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/String/READMEen.md)
 
 | Algorithm              | Time Complexity              | Space Complexity |
 |:------------------------|:-----------------------------|:------------------|
-| [**Boyer-Moore**]()            | O(n + m)                    | O(m + k)         |
-| [**KMP (Knuth-Morris-Pratt)**]()| O(n + m)                   | O(m)             |
-| [**Manacher’s Algorithm**]()                |   O(n)          |        O(n)          |
-| [**Naive Substring Search**]() | O((n-m+1)m)                 | O(1)             |
-| [**Rabin-Karp**]()            | O(n + m) (avg) / O(nm) (worst) | O(1)          |
-| [**Z-Algorithm**]()                |         O(n)      |        O(n)         |
+| [**Boyer-Moore**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/String/Boyer-Moore/READMEen.md)            | O(n + m)                    | O(m + k)         |
+| [**KMP (Knuth-Morris-Pratt)**](https://github.com/jwm1rr0rb10/algorithms/blob/main/Search%20Algorithms/String/KMP%20(Knuth-Morris-Pratt)/READMEen.md)| O(n + m)                   | O(m)             |
+| [**Manacher’s Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/String/Manacher%E2%80%99s%20Algorithm*)                |   O(n)          |        O(n)          |
+| [**Naive Substring Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/String/Naive%20Substring%20Search) | O((n-m+1)m)                 | O(1)             |
+| [**Rabin-Karp**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/String/Rabin-Karp)            | O(n + m) (avg) / O(nm) (worst) | O(1)          |
+| [**Z-Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/String/Z-Algorithm)                |         O(n)      |        O(n)         |
 
 **Legend:**  
 n — number of elements in array  
@@ -335,20 +335,20 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ---
 
-### [**Tree Search**]()
+### [**Tree Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree)
 
 | **Algorithm**                              | **Time Complexity** | **Space Complexity** |
 |:-------------------------------------------|:--------------------|:---------------------|
-| [**Binary Search Tree Search**]()        | O(h) (O(log n) for balanced)    | O(1)        |
-| [**Deserialize Binary Tree**]() |          |             O(n)         | O(n)                      |
-| [**Fenwick Tree (Binary Indexed Tree)**]() |    O(log n)                 |       O(n)               |
-| [**Lowest Common Ancestor**]() |           |     O(n)                | O(n)                     |
-| [**Segment Tree**]()                       |    O(log n)                 |       O(n)               |
-| [**Serialize Binary Tree**]() |            |     O(n)                |       O(n)               |
-| [**Traversals: In-order**]()               |     O(n)                |         O(n)             |
-| [**Traversals: Post-order**]()             |             O(n)        |     O(h)                 |
-| [**Traversals: Pre-order**]()              |       O(n)              |     O(h)                 |
-| [**Trie(Prefix Tree)**]()                  |   O(L)                  |          O(N*L)            |
+| [**Binary Search Tree Search**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Binary%20Search%20Tree%20Search)        | O(h) (O(log n) for balanced)    | O(1)        |
+| [**Deserialize Binary Tree**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Deserialize%20Binary%20Tree) |          |             O(n)         | O(n)                      |
+| [**Fenwick Tree (Binary Indexed Tree)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Fenwick%20Tree%20(Binary%20Indexed%20Tree)) |    O(log n)                 |       O(n)               |
+| [**Lowest Common Ancestor**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Lowest%20Common%20Ancestor%20(LCA)) |           |     O(n)                | O(n)                     |
+| [**Segment Tree**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Segment%20Tree)                       |    O(log n)                 |       O(n)               |
+| [**Serialize Binary Tree**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Serialize%20Binary%20Tree) |            |     O(n)                |       O(n)               |
+| [**Traversals: In-order**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Traversals%3A%20In-order)               |     O(n)                |         O(n)             |
+| [**Traversals: Post-order**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Traversals%3A%20Post-order)             |             O(n)        |     O(h)                 |
+| [**Traversals: Pre-order**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Traversals%3A%20Pre-order)              |       O(n)              |     O(h)                 |
+| [**Trie(Prefix Tree)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Search%20Algorithms/Tree/Trie%20(Prefix%20Tree))                  |   O(L)                  |          O(N*L)            |
 
 ### Legend
 
@@ -398,24 +398,24 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ## [**🧩 Two Pointers / Sliding Window**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window)
 
-| **Algorithm**                                                                                                                                                                             | **Time Complexity** | **Space Complexity** |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:---------------------|
-| [**Backspace String Compare**]()                                                                                                                                                          | O(n)                | O(1)                 |
-| [**Container With Most Water**]()                                                                                                                                                         | O(n)                | O(1)                 |
-| [**Find All Anagrams in a String**]()                                                                                                                                                     | O(n)                | O(1) or O(k)         |
-| [**Four Sum**]()                                                                                                                                                                          | O(n² / n³)          | O(n)                 |
-| [**Longest Repeating Character Replacement**]()                                                                                                                                           | O(n)                | O(1)                 |
-| [**Longest Substring Without Repeating Characters**]()                                                                                                                                    | O(n)                | O(n)                 |
-| [**Maximum Subarray (Kadane’s Algorithm)**]()                                                                                                                                             | O(n)                | O(1)                 |
-| [**Minimum Size Subarray Sum**]()                                                                                                                                                         | O(n)                | O(1)                 |
-| [**Minimum Window Substring**]()                                                                                                                                                          | O(n)                | O(n)                 |
-| [**Move Zeroes**]()                                                                                                                                                                       | O(n)                | O(1)                 |
-| [**Remove Duplicates from Sorted Array**]()                                                                                                                                               | O(n)                | O(1)                 |
-| [**Sliding Window**]()                                                                                                                                                                      |O(n)|O(1)|
-| [**Sort Colors (Dutch National Flag)**]()                | O(n)                | O(1)                 |
-| [**Three Sum**]()                                                                      | O(n² / n³)          | O(n)                 |
-| [**Trapping Rain Water**]()                                               | O(n)                | O(1)                 |
-| [**Two Sum**]()                                                                         | O(n² / n³)          | O(n)                 |
+| **Algorithm**                                                                                                                                                                            | **Time Complexity** | **Space Complexity** |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:---------------------|
+| [**Backspace String Compare**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Backspace%20String%20Compare)                                 | O(n)                | O(1)                 |
+| [**Container With Most Water**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Container%20With%20Most%20Water)                             | O(n)                | O(1)                 |
+| [**Find All Anagrams in a String**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Find%20All%20Anagrams%20in%20a%20String)                 | O(n)                | O(1) or O(k)         |
+| [**Four Sum**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Four%20Sum)                                                                   | O(n² / n³)          | O(n)                 |
+| [**Longest Repeating Character Replacement**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Longest%20Repeating%20Character%20Replacement) | O(n)                | O(1)                 |
+| [**Longest Substring Without Repeating Characters**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Longest%20Substring%20Without%20Repeating%20Characters)                                                                                                                                   | O(n)                | O(n)                 |
+| [**Maximum Subarray (Kadane’s Algorithm)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Maximum%20Subarray%20(Kadane%E2%80%99s%20Algorithm))                                                                                                                                            | O(n)                | O(1)                 |
+| [**Minimum Size Subarray Sum**]()https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Minimum%20Size%20Subarray%20Sum                                                                                                                                                        | O(n)                | O(1)                 |
+| [**Minimum Window Substring**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Minimum%20Window%20Substring)                                                                                                                                                         | O(n)                | O(n)                 |
+| [**Move Zeroes**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Minimum%20Window%20Substring)                                                                                                                                                                      | O(n)                | O(1)                 |
+| [**Remove Duplicates from Sorted Array**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Remove%20Duplicates%20from%20Sorted%20Array)                                                                                                                                              | O(n)                | O(1)                 |
+| [**Sliding Window**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Remove%20Duplicates%20from%20Sorted%20Array)                                                                                                                                                                   |O(n)|O(1)|
+| [**Sort Colors (Dutch National Flag)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Sort%20Colors%20(Dutch%20National%20Flag))                                                                                                                                                | O(n)                | O(1)                 |
+| [**Three Sum**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Three%20Sum)                                                                                                                                                                        | O(n² / n³)          | O(n)                 |
+| [**Trapping Rain Water**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Trapping%20Rain%20Water)                                                                                                                                                              | O(n)                | O(1)                 |
+| [**Two Sum**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window/Two%20Sum)                                                                                                                                                                          | O(n² / n³)          | O(n)                 |
 
 ---
 
