@@ -370,19 +370,19 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 ---
 
 
-## [**🔁 Sorting Algorithms**]()
+## [**🔁 Sorting Algorithms**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms)
 
 | **Algorithm**      | **Time Complexity (Best / Avg / Worst)** | **Space Complexity** |
 |:-------------------|:-----------------------------------------|:--------------------|
-| [**Bubble Sort**]()    | O(n) / O(n²) / O(n²)                 | O(1)             |
-| [**Bucket Sort**]()    | O(n + k) (avg), O(n²) (worst)        | O(n + k)         |
-| [**Counting Sort (for integers or limited range)**]()  | O(n + k)                             | O(k)             |
-| [**Heap Sort**]()      | O(n log n) / O(n log n) / O(n log n) | O(1)             |
-| [**Insertion Sort**]() | O(n) / O(n²) / O(n²)                 | O(1)             |
-| [**Merge Sort**]()     | O(n log n) / O(n log n) / O(n log n) | O(n)             |
-| [**Quick Sort**]()      | O(n log n) / O(n log n) / O(n²)      | O(log n)         |
-| [**Radix Sort**]()     | O(nk)                                | O(n + k)         |
-| [**Selection Sort**]() | O(n²) / O(n²) / O(n²)                | O(1)             |
+| [**Bubble Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Bubble%20Sort)    | O(n) / O(n²) / O(n²)                 | O(1)             |
+| [**Bucket Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Bubble%20Sort)    | O(n + k) (avg), O(n²) (worst)        | O(n + k)         |
+| [**Counting Sort (for integers or limited range)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Counting%20Sort%20)  | O(n + k)                             | O(k)             |
+| [**Heap Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Heap%20Sort)      | O(n log n) / O(n log n) / O(n log n) | O(1)             |
+| [**Insertion Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Insertion%20Sort) | O(n) / O(n²) / O(n²)                 | O(1)             |
+| [**Merge Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Merge%20Sort)     | O(n log n) / O(n log n) / O(n log n) | O(n)             |
+| [**Quick Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Quick%20Sort)      | O(n log n) / O(n log n) / O(n²)      | O(log n)         |
+| [**Radix Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Radix%20Sort)     | O(nk)                                | O(n + k)         |
+| [**Selection Sort**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Sorting%20Algorithms/Selection%20Sort) | O(n²) / O(n²) / O(n²)                | O(1)             |
 
 ---
 
@@ -396,7 +396,7 @@ k — alphabet size (number of possible unique characters in the input, e.g. 26 
 
 ---
 
-## [**🧩 Two Pointers / Sliding Window**]()
+## [**🧩 Two Pointers / Sliding Window**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Two%20Pointers%20%26%20Sliding%20Window)
 
 | **Algorithm**                                                                                                                                                                             | **Time Complexity** | **Space Complexity** |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:---------------------|
