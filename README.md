@@ -122,27 +122,27 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**Dynamic Programming**]()
+## [**Dynamic Programming**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming)
 
 | **Algorithm**                                                                                                                                  | **Time Complexity**  | **Space Complexity**   |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:-----------------------|
-| [**Coin Change**]()                                         | O(n * amount)        | O(amount)              |
-| [**DP on Graphs**]()                                    | O(V + E)             | O(V + E)               |
-| [**DP on Trees**]()                                       | O(n)                 | O(n)                   |
-| [**Edit Distance**]()                                    | O(m * n)             | O(m * n)               |
-| [**House Robber**]()                                       | O(n)                 | O(1)                   |
-| [**Knapsack**]()                                                 | O(n * W)             | O(n * W)               |
-| [**Longest Common Subsequence**]()         | O(m * n)             | O(m * n)               |
-| [**Longest Increasing Subsequence**]() | O(n * log n)         | O(n)                   |
-| [**Longest Palindromic Substring**]()   | O(n^2)               | O(n^2)                 |
-| [**Matrix Chain Multiplication**]()       | O(n^3)               | O(n^2)                 |
-| [**Memoization**]()                                           | O(n)                 | O(n)                   |
-| [**Paint House**]()                                         | O(n)                 | O(n)                   |
-| [**Palindrome Subarray**]()                           | O(n^2)               | O(n^2)                 |
-| [**Palindrome Subsequence**]()                   | O(n^2)               | O(n^2)                 |
-| [**Partition problem**]()                             | O(n * sum)           | O(n * sum)             |
-| [**Tabulation**]()                                             | O(n * sum/2)         | O(n * sum/2)           |
-| [**Word Break**]()                                           | O(n²)                | O(n)                   |
+| [**Coin Change**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Coin%20Change)                                         | O(n * amount)        | O(amount)              |
+| [**DP on Graphs**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/DP%20on%20Graphs)                                    | O(V + E)             | O(V + E)               |
+| [**DP on Trees**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/DP%20on%20Trees)                                       | O(n)                 | O(n)                   |
+| [**Edit Distance**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Edit%20Distance)                                    | O(m * n)             | O(m * n)               |
+| [**House Robber**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/House%20Robber)                                       | O(n)                 | O(1)                   |
+| [**Knapsack**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Knapsack)                                                 | O(n * W)             | O(n * W)               |
+| [**Longest Common Subsequence**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Longest%20Common%20Subsequence)         | O(m * n)             | O(m * n)               |
+| [**Longest Increasing Subsequence**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Longest%20Increasing%20Subsequence) | O(n * log n)         | O(n)                   |
+| [**Longest Palindromic Substring**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Longest%20Palindromic%20Substring)   | O(n^2)               | O(n^2)                 |
+| [**Matrix Chain Multiplication**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Matrix%20Chain%20Multiplication)       | O(n^3)               | O(n^2)                 |
+| [**Memoization**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Memoization)                                           | O(n)                 | O(n)                   |
+| [**Paint House**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Paint%20House)                                         | O(n)                 | O(n)                   |
+| [**Palindrome Subarray**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Palindrome%20Subarray)                           | O(n^2)               | O(n^2)                 |
+| [**Palindrome Subsequence**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Palindrome%20Subsequence)                   | O(n^2)               | O(n^2)                 |
+| [**Partition problem**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Partition%20problem)                             | O(n * sum)           | O(n * sum)             |
+| [**Tabulation**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Tabulation)                                             | O(n * sum/2)         | O(n * sum/2)           |
+| [**Word Break**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Dynamic%20Programming/Word%20Break)                                           | O(n²)                | O(n)                   |
 
 ### **Legend**
 
@@ -155,21 +155,21 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**📐 Geometry**]()
+## [**📐 Geometry**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry)
 
 | **Algorithm**                                       | **Time Complexity** | **Space Complexity** |
 |:----------------------------------------------------|:--------------------|:---------------------|
-| [**Area of polygon**]()                            | O(n)                | O(1)                 |
-| [**Circle Intersection**]()                         | O(1)                | O(1)                 |
-| [**Closest pair of points**]()                     | O(n log n)          | O(n)                 |
-| [**Convex Hull Graham Scan**]()                     | O(n log n)          | O(n)                 |
-| [**Convex Hull Jarvis March**]()                    | O(nh)               | O(1)                 |
-| [**Line intersection**]()                           | O(1)                | O(1)                 |
-| [**Line Segment Intersection**]()                  | O(1)                | O(1)                 |
-| [**Point in Polygon (Ray Casting)**]()              | O(n)                | O(1)                 |
-| [**Rectangle Intersection**]()                      | O(1)                | O(1)                 |
-| [**Rectangle Overlap**]()                           | O(1)                | O(1)                 |
-| [**Rotating Calipers (Convex Polygon Diameter)**]() | O(n)                | O(1)                 |
+| [**Area of polygon**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Area%20of%20polygon)                            | O(n)                | O(1)                 |
+| [**Circle Intersection**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Circle%20Intersection)                         | O(1)                | O(1)                 |
+| [**Closest pair of points**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Closest%20pair%20of%20points)                     | O(n log n)          | O(n)                 |
+| [**Convex Hull Graham Scan**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Convex%20Hull%20Graham%20Scan)                     | O(n log n)          | O(n)                 |
+| [**Convex Hull Jarvis March**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Convex%20Hull%20Jarvis%20March)                    | O(nh)               | O(1)                 |
+| [**Line intersection**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Line%20intersection)                           | O(1)                | O(1)                 |
+| [**Line Segment Intersection**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Line%20Segment%20Intersection)                  | O(1)                | O(1)                 |
+| [**Point in Polygon (Ray Casting)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Point%20in%20Polygon%20(Ray%20Casting))              | O(n)                | O(1)                 |
+| [**Rectangle Intersection**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Rectangle%20Intersection)                      | O(1)                | O(1)                 |
+| [**Rectangle Overlap**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Rectangle%20Overlap)                           | O(1)                | O(1)                 |
+| [**Rotating Calipers (Convex Polygon Diameter)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Geometry/Rotating%20Calipers%20(Convex%20Polygon%20Diameter)) | O(n)                | O(1)                 |
 
 ---
 
@@ -185,16 +185,16 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**Greedy**]()
+## [**Greedy**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms)
 
 | **Algorithm**                         | **Time Complexity** | **Space Complexity** |
 |:--------------------------------------|:--------------------|:---------------------|
-| [**Activity Selection**](()           | O(n)	              | O(1)                 |
-| [**Fractional Knapsack**]()           | O(n log n)          | O(1)                 |
-| [**Huffman Encoding**]()              | O(n log n)          | O(n)                 |
-| [**Job Scheduling**]()                | O(n log n)          | O(n)                 |
-| [**Minimum Spanning Tree Kruskal**]() | O(E log E)          | O(E)                 |
-| [**Minimum Spaning Tree Prim**]()     | O(E + V log V)      | O(V + E)             |
+| [**Activity Selection**]((https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Activity%20Selection)           | O(n)	              | O(1)                 |
+| [**Fractional Knapsack**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Fractional%20Knapsack)           | O(n log n)          | O(1)                 |
+| [**Huffman Encoding**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Huffman%20Encoding)              | O(n log n)          | O(n)                 |
+| [**Job Scheduling**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Job%20Scheduling)                | O(n log n)          | O(n)                 |
+| [**Minimum Spanning Tree Kruskal**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Minimum%20Spanning%20Tree%20Kruskal) | O(E log E)          | O(E)                 |
+| [**Minimum Spaning Tree Prim**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Greedy%20Algorithms/Minimum%20Spanning%20Tree%20Prim)     | O(E + V log V)      | O(V + E)             |
 
 ---
 
@@ -206,25 +206,25 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**🧮 Mathematical Algorithms**]()
+## [**🧮 Mathematical Algorithms**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms)
 
 | **Algorithm**        | **Time Complexity** | **Space Complexity** |
 |:-----------------------------|:----------------------|:----------------------------------|
-| [**Chinese Remainder Theorem**]()                | O(k log n)         | O(1)             |
-| [**Combinatorics (nCr, factorials with mod)**]() | O(n) preprocessing | O(n)             |
-| [**Extended Euclidean Algorithm**]() | O(log n)  | O(1)               |                  |
-| [**Fast Power (Exponentiation by Squaring)**]()  | O(log n)           | O(1)             |
-| [**Fermat’s Little Theorem**]()                  | O(log n)           | O(1)             |
-| [**GCD (Euclidean Algorithm)**]()                | O(log n)           | O(1)             |
-| [**LCM (Euclidean Algorithm)**]()                | O(log n)           | O(1)             |
-| [**Modular Inverse**]()                         |       O(log(min(a,m)))             |     O(log(min(a,m)))             |
-| [**Primality Test (Miller-Rabin)**]()            | O(klog3n)              | O(logn)           |
-| [**Prime Factorization**]()                      | O(√n)              | O(1)             |
-| [**Sieve of Eratosthenes**]()                    | O(n log log n)     | O(n)             |
+| [**Chinese Remainder Theorem**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Chinese%20Remainder%20Theorem)                | O(k log n)         | O(1)             |
+| [**Combinatorics (nCr, factorials with mod)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Combinatorics%20(nCr%2C%20factorials%20with%20mod)) | O(n) preprocessing | O(n)             |
+| [**Extended Euclidean Algorithm**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Extended%20Euclidean) | O(log n)  | O(1)               |                  |
+| [**Fast Power (Exponentiation by Squaring)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Fast%20Power%20(Exponentiation%20by%20Squaring))  | O(log n)           | O(1)             |
+| [**Fermat’s Little Theorem**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Fermat%E2%80%99s%20Little%20Theorem)                  | O(log n)           | O(1)             |
+| [**GCD (Euclidean Algorithm)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/GCD%20Euclidean%20)                | O(log n)           | O(1)             |
+| [**LCM (Euclidean Algorithm)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/LCM%20Euclidean%20)                | O(log n)           | O(1)             |
+| [**Modular Inverse**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Modular%20Inverse)                         |       O(log(min(a,m)))             |     O(log(min(a,m)))             |
+| [**Primality Test (Miller-Rabin)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Primality%20Test%20(Miller-Rabin))            | O(klog3n)              | O(logn)           |
+| [**Prime Factorization**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Prime%20Factorization)                      | O(√n)              | O(1)             |
+| [**Sieve of Eratosthenes**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Mathematical%20Algorithms/Sieve%20of%20Eratosthenes)                    | O(n log log n)     | O(n)             |
 
 ---
 
-**Legend:**  да давай поговорим
+**Legend:** 
 - *n* — input number or range limit (depending on the algorithm).
 - *k* — number of moduli (for CRT).
 
