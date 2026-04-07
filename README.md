@@ -234,19 +234,19 @@ The algorithm is faster than standard O(n³) matrix multiplication by reducing t
 
 ---
 
-## [**🧬 Miscellaneous Must-Know**]()
+## [**🧬 Miscellaneous Must-Know**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous)
 
 | **Algorithm**                                                                                                                                                                    | **Time Complexity**   | **Space Complexity** |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|:---------------------|
-| [**Deque (Double-ended Queue)**]()                                                                                                                                               | O(1) per op           | O(n)                 |
-| [**Hashing (HashMap / HashSet usage)**]()                                                                                                                                        | O(1) avg / O(n) worst | O(n)                 |
-| [**LFU Cache**]()                                                                                                                                                                  | O(1) per op           | O(n)                 |
-| [**LRU Cache (with Doubly Linked List + HashMap)**]() | O(1) per op           | O(n)                 |
-| [**Monotonic Queue**]()                                                                           | O(n)                  | O(n)                 |
-| [**Monotonic Stack**]()                                                                          | O(n)                  | O(n)                 |
-| [**Ordered Map/Set(TreeMap/TreeSet)**]()                                       | O(log n) per op       | O(n)                 |
-| [**Priority Queue (Heap)**]()                                                            | O(log n) per op       | O(n)                 |
-| [**Top K Elements (Heap + Map)**]()                                                                                                                                              | O(n log k)            | O(k)                 |               
+| [**Deque (Double-ended Queue)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Deque%20(Double-ended%20Queue))                                                                                                                                               | O(1) per op           | O(n)                 |
+| [**Hashing (HashMap / HashSet usage)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Hashing%20(HashMap%20%26%20HashSet%20usage))                                                                                                                                        | O(1) avg / O(n) worst | O(n)                 |
+| [**LFU Cache**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/LFU%20Cache)                                                                                                                                                                  | O(1) per op           | O(n)                 |
+| [**LRU Cache (with Doubly Linked List + HashMap)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/LRU%20Cache%20(with%20Doubly%20Linked%20List%20%2B%20HashMap)) | O(1) per op           | O(n)                 |
+| [**Monotonic Queue**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Monotonic%20Queue)                                                                           | O(n)                  | O(n)                 |
+| [**Monotonic Stack**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Monotonic%20Stack)                                                                          | O(n)                  | O(n)                 |
+| [**Ordered Map/Set(TreeMap/TreeSet)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Ordered%20Map-Set(TreeMap-TreeSet))                                       | O(log n) per op       | O(n)                 |
+| [**Priority Queue (Heap)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Priority%20Queue%20(Heap))                                                            | O(log n) per op       | O(n)                 |
+| [**Top K Elements (Heap + Map)**](https://github.com/jwm1rr0rb10/algorithms/tree/main/Miscellaneous/Top%20K%20Elements%20(Heap%20%2B%20Map))                                                                                                                                              | O(n log k)            | O(k)                 |               
 
 ---
 
